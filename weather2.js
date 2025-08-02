@@ -110,9 +110,9 @@ function updateBackgroundFromTemperature(tempCelsius) {
 
     if (tempCelsius <= 0) {
         bgUrl = "images/snow.avif"; // Freezing - Snow likely
-    } else if (tempCelsius > 0 && tempCelsius <= 10) {
+    } else if (tempCelsius > 0 && tempCelsius <= 14) {
         bgUrl = "images/cloud.avif"; // Very cold - Likely cloudy
-    } else if (tempCelsius > 10 && tempCelsius <= 20) {
+    } else if (tempCelsius > 14 && tempCelsius <= 20) {
         bgUrl = "images/rain.avif"; // Cool - May have rain
     } else if (tempCelsius > 20 && tempCelsius <= 30) {
         bgUrl = "images/clear.avif"; // Pleasant - Clear weather
