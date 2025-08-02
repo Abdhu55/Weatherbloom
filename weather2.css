@@ -114,3 +114,74 @@ button:hover {
   color: #fff;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+
+
+@media (max-width: 768px) {
+  body {
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  #weather-container {
+    margin-top: 40px;
+    padding: 25px 20px;
+    max-width: 95%;
+  }
+
+  #weather-container h2 {
+    font-size: 1.8rem;
+  }
+
+  .search-box {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  #city {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  #temp-div {
+    font-size: 26px;
+  }
+
+  #weather-info {
+    font-size: 16px;
+  }
+
+  .hour {
+    min-width: 80px;
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  #weather-container h2 {
+    font-size: 1.5rem;
+  }
+
+  #temp-div {
+    font-size: 22px;
+  }
+
+  #weather-info {
+    font-size: 15px;
+  }
+
+  .hour {
+    min-width: 70px;
+    font-size: 13px;
+  }
+
+  #weather-icon {
+    width: 80px;
+  }
+}
